@@ -1,0 +1,350 @@
+/* Main Style*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    position: relative;
+}
+
+/* NAV */
+/* ---------------------------------------------------------------------------------- */
+
+.nav-toggle {
+    display: none; 
+}
+
+nav {
+    color: #0C3358;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #0C3358;
+    text-decoration: none;
+    font-family: 'Kavoon', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 44px;
+
+}
+
+
+.nav-active {
+    display: block;
+}
+
+/* HEAD */
+/* ---------------------------------------------------------------------------------- */
+
+header{
+    position: relative;
+    color: #0C3358;
+    text-align: center;
+    height: 63%;
+    
+
+}
+
+.homeTextBackground, .homeTextForeground {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeTextBackground {
+    color: #C1CAD6;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 230px;
+  
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.homeTextForeground {
+    color: #9A031E;
+    font-family: 'Inspiration', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 130px;
+    letter-spacing: 8px;
+    font-weight: bold;
+
+    z-index: 2;
+    white-space: nowrap;
+   
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    fill: #0C3358;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    position: absolute;
+    
+}
+
+.wave2 {
+    width: 100%;
+    height: 100%;
+    top: auto;
+    fill: #0C3358;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.content {
+    background-color: #0C3358;
+    position: relative;
+    margin-top: 4%; 
+    margin-bottom: 20%;
+    
+    z-index: 1;
+    
+}
+
+h6 {
+    position: relative;
+    top: 0%;
+    color: #0C3358;
+    
+    font-family: 'Kavoon', sans-serif;
+    font-size: 48px;
+    
+    margin-top: -500px;
+    margin-left: 300px;
+}
+
+p {
+
+    color: #ffffff;
+
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+
+    
+    margin-top: -90px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.image {
+    position: relative;
+    margin-top: 10%;
+    z-index: 3;
+}
+
+/* CIRCLE */
+.circle {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: inline-block;
+
+    background-color: #C1CAD6;
+    border-radius: 404px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    margin-top: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    z-index: 3;
+}
+
+.title {
+    position: relative;
+    color: #9A031E;
+    
+    font-family: 'Kavoon', sans-serif;
+    font-size: 48px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        padding: 0px;
+    }
+
+    nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+
+        z-index: 4;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #0C3358;
+        z-index: 5;
+    }
+
+    nav ul {
+        padding: 20px;
+        margin-left: -100px;
+    }
+
+    nav a {
+        font-size: 30px;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-active {
+        display: block;
+    }
+
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 5;
+    }
+
+    .homeTextBackground, .homeTextForeground{
+        margin-top: 15%;
+
+    }
+
+    .homeTextBackground{
+        font-size: 110px;
+        z-index: 0;
+
+    } 
+    
+    .homeTextForeground{ 
+        font-size: 65px;
+        letter-spacing: 4px;
+        z-index: 1;
+    }
+
+    .wave{
+        margin-top: -470px;
+    }
+
+    .wave2{
+        z-index: 0;
+    }
+
+    .content {
+        margin-top: -680px;
+        margin-bottom: 441px;
+        z-index: 1;
+    }
+
+    h6 {
+        font-size: 30px;
+        margin-top: -300px;
+        margin-left: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: -60px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .image{
+        width: 65%;
+        height: auto;
+
+        margin-top: 55%;
+    }
+
+    .bottom {
+        margin-top: 170%;
+    }
+
+    .circle{
+        height: 260px;
+        width: 260px;
+    }
+
+
+    .image-down{
+        width: 100%;
+        height: auto;
+    }
+
+
+    a[href*="Bokbunja-Ju"] .circle img {
+        width: 40%;
+    }
+    
+    a[href*="Soju"] .circle img {
+        width: 31%;
+    }
+
+    a[href*="Oksusu Cha"] .circle img {
+        width: 32%;
+    }
+
+    a[href*="Green tea"] .circle img {
+        width: 50%;
+    }
+
+    a[href*="Boricha"] .circle img {
+        width: 30%;
+    }
+    
+    a[href*="Maekju"] .circle img {
+        width: 29%;
+    }
+
+    a[href*="Dongdongju"] .circle img {
+        width: 38%;
+    }
+
+    a[href*="Maesilju"] .circle img {
+        width: 37%;
+    }
+
+
+
+
+    
+
+
+}

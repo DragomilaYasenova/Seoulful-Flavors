@@ -1,0 +1,525 @@
+/* Main Style*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #0C3358;
+    position: relative;
+}
+
+/* NAV */
+/* ---------------------------------------------------------------------------------- */
+
+.nav-toggle {
+    display: none; 
+}
+
+nav {
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ffff;
+    text-decoration: none;
+    font-family: 'Kavoon', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 44px;
+
+}
+
+
+.nav-active {
+    display: block;
+}
+
+/* HEAD */
+/* ---------------------------------------------------------------------------------- */
+
+header{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    
+    
+
+}
+
+.homeTextBackground, .homeTextForeground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeTextBackground {
+    background: linear-gradient(180deg, #71829b 0%, rgba(193, 202, 214, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 300px;
+  
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.homeTextForeground {
+    color: #ffff;
+    font-family: 'Inspiration', sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 160px;
+    letter-spacing: 8px;
+
+    z-index: 2;
+    white-space: nowrap;
+    font-weight: bold;
+   
+}
+
+.wave {
+    width: 100%;
+    height: 100%;
+    fill: #ffff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    position: absolute;
+    
+}
+
+.wave2 {
+    width: 100%;
+    height: 100%;
+    top: auto;
+    fill: #ffff;
+    background-color: #0C3358;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.content {
+    background-color: #ffff;
+    position: relative;
+    margin-top: 26%; 
+    margin-bottom: 20%;
+    
+    z-index: 1;
+    
+}
+
+h6 {
+    position: relative;
+    top: 0%;
+    color: #0C3358;
+    
+    font-family: 'Kavoon', sans-serif;
+    font-size: 48px;
+    
+    margin-top: -500px;
+    margin-left: 300px;
+}
+
+p {
+
+    color: #0C3358;
+
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    
+    margin-top: -90px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+/* DISHES */
+/* ---------------------------------------------------------------------------------- */
+
+.dishes-content {
+    width: auto; 
+    height: 6289px;
+    margin-top: 67%; 
+}
+
+.right {
+ 
+    text-align: right;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.left {
+   
+    text-align: left;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.right:first-child {
+    margin-top: -520px;
+}
+
+.title {
+    font-family: 'Kavoon', sans-serif;
+    color: #0C3358;
+}
+
+.text {
+    font-family: 'Lato', sans-serif;
+    color: #0C3358;
+    font-size: 28px;
+}
+
+.button {
+    width: 244px;
+    height: 51px;
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+    border: 2px solid #FFF;
+    background: #9A031E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pictureRight {
+    float: right;
+    margin-left: 30px;
+    margin-top: -80px;
+}
+
+.pictureLeft {
+    float: left;
+    margin-right: 30px;
+    margin-top: -80px;
+}
+
+.wave2{
+    z-index: 0;
+    margin-top: -21%;
+}
+
+
+/* DRINKS */
+/* ---------------------------------------------------------------------------------- */
+
+.drinks-content {
+    width: auto; 
+    height: 5100px;
+    margin-top: 67%; 
+}
+
+.drinks-pictureRight {
+    width: 250px;
+    float: right;
+    margin-left: 30px;
+    margin-top: -180px;
+}
+
+
+.drinks-pictureLeft {
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: -90px;
+}
+
+
+.drinks-right {
+    text-align: right;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+
+
+.drinks-left {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+
+/* SIDE DISHES */
+/* ---------------------------------------------------------------------------------- */
+.sideDishes-content {
+    width: auto; 
+    height: 230%;
+    margin-top: 67%; 
+}
+
+
+
+
+
+
+.test {
+    border: 4px solid #ff0000;
+    position: absolute;
+    background-color: #ffff;
+}
+
+
+@media only screen and (max-width: 767px) {
+    nav a {
+        font-size: 24px;
+    }
+}
+
+header {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    padding: 300px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    header {
+        padding: 0px;
+    }
+
+    nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0C3358;
+        z-index: 3;
+    }
+
+    .nav-toggle {
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #fff;
+        z-index: 4;
+    }
+
+    nav ul {
+        padding: 20px;
+        margin-left: -50px;
+    }
+
+    nav a {
+        font-size: 30px;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-active {
+        display: block;
+    }
+
+    .nav-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 4;
+    }
+
+    .homeTextBackground{
+        margin-top: 105%;
+        font-size: 100px;
+        z-index: 0;
+
+    } 
+    
+    .homeTextForeground{
+        margin-top: 105%;
+        font-size: 55px;
+        letter-spacing: 4px;
+        z-index: 1;
+    }
+
+    .wave{
+        margin-top: 207px;
+    }
+
+    .wave2{
+        z-index: 0;
+    }
+
+    .content {
+        margin-top: 10px;
+        margin-bottom: 441px;
+        z-index: 1;
+    }
+
+    h6 {
+        font-size: 30px;
+        margin-top: -300px;
+        margin-left: 50px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: -60px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    /* Dishes */
+
+    .responsive-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .left, .right {
+        text-align: justify;
+        margin-top: 300px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+    .right:first-child {
+        margin-top: 70px;
+    }
+
+
+    .title {
+        font-size: 28px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .pictureLeft, .pictureRight {
+        float: none;
+        margin-left: 0px;
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+
+    .dishes-homeTextBackground, .dishes-homeTextForeground {
+        margin-top: -64%;
+        z-index: 2;
+    }
+
+    .dishes-content {
+        margin-top: 120%;
+        margin-bottom: 10px;
+        padding: 0%;
+        height: 10800px;
+    }
+
+    .dishes-wave {
+        margin-top: -123%;
+    }
+
+    .dishes-wave2 {
+        margin-top: -52%;
+    }
+
+
+    /* DRINKS */
+    .responsive-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .drinks-left, .drinks-right {
+        text-align: justify;
+        margin-top: 300px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+    .title {
+        font-size: 28px;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+
+    .button {
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .drinks-pictureLeft, .drinks-pictureRight {
+        width: 40%;
+        float: none;
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: -80px;
+        margin-bottom: 30px;
+    }
+
+    .dishes-homeTextBackground, .dishes-homeTextForeground {
+        margin-top: -64%;
+        z-index: 2;
+    }
+
+    .drinks-content {
+        margin-top: 120%;
+        margin-bottom: 10px;
+        padding: 0%;
+        height: 10150px;
+    }
+
+    .dishes-wave {
+        margin-top: -123%;
+    }
+
+    .dishes-wave2 {
+        margin-top: -52%;
+    }
+}
