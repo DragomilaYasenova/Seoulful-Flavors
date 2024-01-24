@@ -1,10 +1,6 @@
-/* Main Style*/
 body, html {
     height: 100%;
     margin: 0;
-}
-
-body {
     background-color: #0C3358;
     position: relative;
 }
@@ -17,6 +13,7 @@ body {
 }
 
 nav {
+    top: 0;
     color: #fff;
     text-align: center;
     padding: 30px;
@@ -42,21 +39,17 @@ nav a {
 }
 
 
-.nav-active {
-    display: block;
-}
 
 /* HEAD */
 /* ---------------------------------------------------------------------------------- */
 
-header{
+header {
     position: relative;
     color: #fff;
     text-align: center;
-    
-    
-
+    padding: 300px;
 }
+
 
 .homeTextBackground, .homeTextForeground {
     position: absolute;
@@ -95,7 +88,6 @@ header{
     width: 100%;
     height: 100%;
     fill: #ffff;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
     position: absolute;
     
 }
@@ -106,7 +98,6 @@ header{
     top: auto;
     fill: #ffff;
     background-color: #0C3358;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25) inset;
     position: absolute;
     z-index: 0;
 
@@ -194,7 +185,7 @@ p {
 .button {
     width: 244px;
     height: 51px;
-    flex-shrink: 0;
+    cursor: pointer;
 
     color: #FFF;
     font-size: 20px;
@@ -204,6 +195,16 @@ p {
     background: #9A031E;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
+
+.button:hover {
+    background: #2980b9;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.button:active {
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
 
 .pictureRight {
     float: right;
@@ -283,23 +284,11 @@ p {
 
 .test {
     border: 4px solid #ff0000;
-    position: absolute;
-    background-color: #ffff;
 }
 
 
-@media only screen and (max-width: 767px) {
-    nav a {
-        font-size: 24px;
-    }
-}
 
-header {
-    position: relative;
-    color: #fff;
-    text-align: center;
-    padding: 300px;
-}
+
 
 
 @media only screen and (max-width: 767px) {
@@ -332,15 +321,16 @@ header {
     }
 
     nav ul {
-        padding: 20px;
-        margin-left: -50px;
+        padding: 0px;
+        margin-left: -70px;
     }
 
     nav a {
-        font-size: 30px;
+        font-size: 40px;
         text-decoration: none;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        margin-top: 100px;
     }
 
     .nav-active {
@@ -521,5 +511,12 @@ header {
 
     .dishes-wave2 {
         margin-top: -52%;
+    }
+
+
+    .sideDishes-content {
+        margin-top: 120%;
+        margin-bottom: 10px;
+        height: 4400px;
     }
 }
