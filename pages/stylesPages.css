@@ -158,7 +158,6 @@ p {
     display: inline-block;
 
     background-color: #C1CAD6;
-    border-radius: 404px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
     margin-top: 50%;
@@ -218,15 +217,16 @@ p {
     }
 
     nav ul {
-        padding: 20px;
-        margin-left: -100px;
+        padding: 0;
+        margin-left: -70px;
     }
 
     nav a {
-        font-size: 30px;
+        font-size: 40px;
         text-decoration: none;
         display: block;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
+        margin-top: 100px;
     }
 
     .nav-active {
@@ -308,43 +308,98 @@ p {
         height: auto;
     }
 
-
-    a[href*="Bokbunja-Ju"] .circle img {
-        width: 40%;
-    }
-    
-    a[href*="Soju"] .circle img {
+    #Soju-circle {
         width: 31%;
     }
 
-    a[href*="Oksusu Cha"] .circle img {
+    #BokbunjaJu-circle{
+        width: 40%;
+    }
+
+    #OksusuCha-circle{
         width: 32%;
     }
 
-    a[href*="Green tea"] .circle img {
+    #Greentea-circle{
         width: 50%;
     }
 
-    a[href*="Boricha"] .circle img {
+    #Boricha-circle{
         width: 30%;
     }
-    
-    a[href*="Maekju"] .circle img {
+
+    #Maekju-circle{
         width: 29%;
     }
 
-    a[href*="Dongdongju"] .circle img {
+    #Dongdongju-circle{
         width: 38%;
     }
 
-    a[href*="Maesilju"] .circle img {
+    #Maesilju-circle{
         width: 37%;
+    }
+
+    #Soju-circle{
+        width: 31%;
     }
 
 
 
+    #imageSoju {
+        width: 22%;
+        height: auto;
 
-    
+        margin-top: 51%;
+    }
 
+    #imageBokbunjaJu {
+        width: 29%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageDongdongju {
+        width: 28%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageOksusuCha {
+        width: 23%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageGreenTea {
+        width: 33%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageMaekju {
+        width: 20%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageBoricha {
+        width: 20%;
+        height: auto;
+
+        margin-top: 51%;
+    }
+
+    #imageMaesilju {
+        width: 26%;
+        height: auto;
+
+        margin-top: 51%;
+    }
 
 }
